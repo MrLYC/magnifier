@@ -1,0 +1,14 @@
+
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+
+ignored = ["magnifier/*"]
+required = []
+
+[prune]
+  go-tests = true
+  non-go = true
+  unused-packages = true
+
+[metadata]
+  codename = "magnifier"
